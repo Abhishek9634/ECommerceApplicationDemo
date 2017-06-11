@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		842F88A61EEC37F8006CBE23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F88A51EEC37F8006CBE23 /* AppDelegate.swift */; };
-		842F88A81EEC37F8006CBE23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F88A71EEC37F8006CBE23 /* ViewController.swift */; };
+		842F88A81EEC37F8006CBE23 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F88A71EEC37F8006CBE23 /* LoginVC.swift */; };
 		842F88AB1EEC37F8006CBE23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842F88A91EEC37F8006CBE23 /* Main.storyboard */; };
 		842F88AE1EEC37F8006CBE23 /* ECommerceApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 842F88AC1EEC37F8006CBE23 /* ECommerceApp.xcdatamodeld */; };
 		842F88B01EEC37F8006CBE23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842F88AF1EEC37F8006CBE23 /* Assets.xcassets */; };
@@ -33,6 +33,7 @@
 		843875DA1EED09300005DA73 /* Lato-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 843875C81EED09300005DA73 /* Lato-SemiboldItalic.ttf */; };
 		843875DB1EED09300005DA73 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 843875C91EED09300005DA73 /* Lato-Thin.ttf */; };
 		843875DC1EED09300005DA73 /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 843875CA1EED09300005DA73 /* Lato-ThinItalic.ttf */; };
+		843875E01EED19C00005DA73 /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843875DF1EED19C00005DA73 /* AppUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +56,7 @@
 /* Begin PBXFileReference section */
 		842F88A21EEC37F8006CBE23 /* ECommerceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECommerceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842F88A51EEC37F8006CBE23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		842F88A71EEC37F8006CBE23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		842F88A71EEC37F8006CBE23 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		842F88AA1EEC37F8006CBE23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		842F88AD1EEC37F8006CBE23 /* ECommerceApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ECommerceApp.xcdatamodel; sourceTree = "<group>"; };
 		842F88AF1EEC37F8006CBE23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -85,6 +86,7 @@
 		843875C81EED09300005DA73 /* Lato-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-SemiboldItalic.ttf"; path = "ECommerceApp/Resources/Fonts/Lato-SemiboldItalic.ttf"; sourceTree = "<group>"; };
 		843875C91EED09300005DA73 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Thin.ttf"; path = "ECommerceApp/Resources/Fonts/Lato-Thin.ttf"; sourceTree = "<group>"; };
 		843875CA1EED09300005DA73 /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-ThinItalic.ttf"; path = "ECommerceApp/Resources/Fonts/Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		843875DF1EED19C00005DA73 /* AppUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,10 +137,11 @@
 		842F88A41EEC37F8006CBE23 /* ECommerceApp */ = {
 			isa = PBXGroup;
 			children = (
+				843875DE1EED199A0005DA73 /* Utility */,
 				843875DD1EED09360005DA73 /* Fonts */,
 				84B40D751EEC81EF00EEFBB1 /* UI */,
 				842F88A51EEC37F8006CBE23 /* AppDelegate.swift */,
-				842F88A71EEC37F8006CBE23 /* ViewController.swift */,
+				842F88A71EEC37F8006CBE23 /* LoginVC.swift */,
 				842F88A91EEC37F8006CBE23 /* Main.storyboard */,
 				842F88AF1EEC37F8006CBE23 /* Assets.xcassets */,
 				842F88B11EEC37F8006CBE23 /* LaunchScreen.storyboard */,
@@ -190,6 +193,14 @@
 			);
 			name = Fonts;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		843875DE1EED199A0005DA73 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				843875DF1EED19C00005DA73 /* AppUtility.swift */,
+			);
+			name = Utility;
 			sourceTree = "<group>";
 		};
 		84B40D751EEC81EF00EEFBB1 /* UI */ = {
@@ -351,7 +362,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				842F88A81EEC37F8006CBE23 /* ViewController.swift in Sources */,
+				843875E01EED19C00005DA73 /* AppUtility.swift in Sources */,
+				842F88A81EEC37F8006CBE23 /* LoginVC.swift in Sources */,
 				842F88AE1EEC37F8006CBE23 /* ECommerceApp.xcdatamodeld in Sources */,
 				842F88A61EEC37F8006CBE23 /* AppDelegate.swift in Sources */,
 			);

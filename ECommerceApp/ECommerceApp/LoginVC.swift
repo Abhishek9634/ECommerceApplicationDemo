@@ -1,5 +1,5 @@
 //
-//  LoginViewController.swift
+//  LoginVC.swift
 //  ECommerceApp
 //
 //  Created by Admin on 10/06/17.
@@ -8,18 +8,24 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class LoginVC: UIViewController {
 
+    @IBOutlet weak var emailTxtField: UITextField!
+    @IBOutlet weak var passtxtField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func signInAction(_ sender: Any) {
+    }
+    
+    @IBAction func singUpAction(_ sender: Any) {
+    }
 
 }
 
