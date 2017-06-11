@@ -27,5 +27,9 @@ class LoginVC: UIViewController {
     @IBAction func singUpAction(_ sender: Any) {
     }
 
+    @IBAction func fbLogin(_ sender: Any) {
+    }
+    @IBAction func googleLogin(_ sender: Any) {
+    }
 }
 
