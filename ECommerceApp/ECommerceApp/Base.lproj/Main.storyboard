@@ -171,10 +171,10 @@
             </objects>
             <point key="canvasLocation" x="-276" y="36"/>
         </scene>
-        <!--Table View Controller-->
+        <!--User LoginVC-->
         <scene sceneID="ef5-6s-QQm">
             <objects>
-                <tableViewController id="dJw-xB-f36" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="UserLoginVC" id="dJw-xB-f36" customClass="UserLoginVC" customModule="ECommerceApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="GEK-y3-fyz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

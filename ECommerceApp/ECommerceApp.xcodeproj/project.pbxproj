@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4648F4AF1F239CAF007C3456 /* UserLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4648F4AE1F239CAF007C3456 /* UserLoginVC.swift */; };
 		842F88A61EEC37F8006CBE23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F88A51EEC37F8006CBE23 /* AppDelegate.swift */; };
 		842F88A81EEC37F8006CBE23 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F88A71EEC37F8006CBE23 /* LoginVC.swift */; };
 		842F88AB1EEC37F8006CBE23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842F88A91EEC37F8006CBE23 /* Main.storyboard */; };
@@ -54,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4648F4AE1F239CAF007C3456 /* UserLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLoginVC.swift; sourceTree = "<group>"; };
 		842F88A21EEC37F8006CBE23 /* ECommerceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECommerceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842F88A51EEC37F8006CBE23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		842F88A71EEC37F8006CBE23 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -114,6 +116,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4648F4AD1F239C81007C3456 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				842F88A71EEC37F8006CBE23 /* LoginVC.swift */,
+				4648F4AE1F239CAF007C3456 /* UserLoginVC.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		842F88991EEC37F8006CBE23 = {
 			isa = PBXGroup;
 			children = (
@@ -137,16 +148,16 @@
 		842F88A41EEC37F8006CBE23 /* ECommerceApp */ = {
 			isa = PBXGroup;
 			children = (
-				843875DE1EED199A0005DA73 /* Utility */,
-				843875DD1EED09360005DA73 /* Fonts */,
-				84B40D751EEC81EF00EEFBB1 /* UI */,
 				842F88A51EEC37F8006CBE23 /* AppDelegate.swift */,
-				842F88A71EEC37F8006CBE23 /* LoginVC.swift */,
 				842F88A91EEC37F8006CBE23 /* Main.storyboard */,
 				842F88AF1EEC37F8006CBE23 /* Assets.xcassets */,
 				842F88B11EEC37F8006CBE23 /* LaunchScreen.storyboard */,
 				842F88B41EEC37F8006CBE23 /* Info.plist */,
 				842F88AC1EEC37F8006CBE23 /* ECommerceApp.xcdatamodeld */,
+				4648F4AD1F239C81007C3456 /* ViewControllers */,
+				843875DE1EED199A0005DA73 /* Utility */,
+				843875DD1EED09360005DA73 /* Fonts */,
+				84B40D751EEC81EF00EEFBB1 /* UI */,
 			);
 			path = ECommerceApp;
 			sourceTree = "<group>";
@@ -365,6 +376,7 @@
 				843875E01EED19C00005DA73 /* AppUtility.swift in Sources */,
 				842F88A81EEC37F8006CBE23 /* LoginVC.swift in Sources */,
 				842F88AE1EEC37F8006CBE23 /* ECommerceApp.xcdatamodeld in Sources */,
+				4648F4AF1F239CAF007C3456 /* UserLoginVC.swift in Sources */,
 				842F88A61EEC37F8006CBE23 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
