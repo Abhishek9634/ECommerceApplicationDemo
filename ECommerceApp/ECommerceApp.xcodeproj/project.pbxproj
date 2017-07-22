@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4648F4AF1F239CAF007C3456 /* UserLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4648F4AE1F239CAF007C3456 /* UserLoginVC.swift */; };
+		4648F4B11F23A9F2007C3456 /* SignupUpdateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4648F4B01F23A9F2007C3456 /* SignupUpdateVC.swift */; };
 		842F88A61EEC37F8006CBE23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F88A51EEC37F8006CBE23 /* AppDelegate.swift */; };
 		842F88A81EEC37F8006CBE23 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F88A71EEC37F8006CBE23 /* LoginVC.swift */; };
 		842F88AB1EEC37F8006CBE23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842F88A91EEC37F8006CBE23 /* Main.storyboard */; };
@@ -56,6 +57,7 @@
 
 /* Begin PBXFileReference section */
 		4648F4AE1F239CAF007C3456 /* UserLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLoginVC.swift; sourceTree = "<group>"; };
+		4648F4B01F23A9F2007C3456 /* SignupUpdateVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupUpdateVC.swift; sourceTree = "<group>"; };
 		842F88A21EEC37F8006CBE23 /* ECommerceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECommerceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842F88A51EEC37F8006CBE23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		842F88A71EEC37F8006CBE23 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 			children = (
 				842F88A71EEC37F8006CBE23 /* LoginVC.swift */,
 				4648F4AE1F239CAF007C3456 /* UserLoginVC.swift */,
+				4648F4B01F23A9F2007C3456 /* SignupUpdateVC.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 				843875E01EED19C00005DA73 /* AppUtility.swift in Sources */,
 				842F88A81EEC37F8006CBE23 /* LoginVC.swift in Sources */,
 				842F88AE1EEC37F8006CBE23 /* ECommerceApp.xcdatamodeld in Sources */,
+				4648F4B11F23A9F2007C3456 /* SignupUpdateVC.swift in Sources */,
 				4648F4AF1F239CAF007C3456 /* UserLoginVC.swift in Sources */,
 				842F88A61EEC37F8006CBE23 /* AppDelegate.swift in Sources */,
 			);
