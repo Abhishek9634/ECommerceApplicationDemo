@@ -10,7 +10,6 @@ import UIKit
 
 class SignupUpdateVC: UITableViewController {
 
-
     @IBOutlet weak var imgView: UIImageView!
     @IBOutlet weak var emailTxtField: UITextField!
     @IBOutlet weak var phnTxtField: UITextField!
@@ -35,12 +34,20 @@ class SignupUpdateVC: UITableViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
     }
-    
+ 
     func setupUI(txtField: UITextField) {
         let placeHolerAttr = [NSForegroundColorAttributeName: UIColor.lightGray]
         let attrString = NSAttributedString(string: txtField.placeholder ?? "", attributes: placeHolerAttr)
         txtField.attributedPlaceholder = attrString
-        txtField.getLine()
+        
+        let frame = txtField.convert(txtField.bounds, to: self.view)
+        let x1 = frame.origin.x
+        let y = frame.origin.y + frame.size.height
+        let start = CGPoint(x: x1, y: y)
+        
+        let x2 = frame.origin.x + frame.size.width
+        let end = CGPoint(x: x2, y: y)
+        AppUtility.getLine(view: self.view, startPoint: start, endPoint: end)
     }
     
     @IBAction func createAccount(_ sender: Any) {
